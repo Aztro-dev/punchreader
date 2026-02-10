@@ -2653,6 +2653,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Sensor_Optical:BPW34")
+		(at 30.48 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "344ed8fc-40b2-42e3-a5dc-77aaf997149a")
+		(property "Reference" "D2"
+			(at 29.5529 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BPW34"
+			(at 29.5529 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OptoDevice:Osram_DIL2_4.3x4.65mm_P5.08mm"
+			(at 30.48 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/81521/bpw34.pdf"
+			(at 29.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Silicon PIN Photodiode"
+			(at 30.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2c2d13c-b02d-42e9-9932-48bfb3c207df")
+		)
+		(pin "2"
+			(uuid "24a16ad6-9d5a-4411-ae34-7b8dbfe38070")
+		)
+		(instances
+			(project "Punchreader"
+				(path "/43722faa-4431-4597-8fe0-80b1502747ca"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 64.77 50.8 90)
 		(unit 1)
@@ -3391,6 +3459,73 @@
 			(project "Emitter"
 				(path "/43722faa-4431-4597-8fe0-80b1502747ca"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69931499-ef5a-42f4-b978-e050e68a47bd")
+		(property "Reference" "#PWR011"
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5923e0cc-de4b-40c4-a339-2932a8bb2967")
+		)
+		(instances
+			(project "Punchreader"
+				(path "/43722faa-4431-4597-8fe0-80b1502747ca"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4400,7 +4535,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Optical:BPW34")
-		(at 30.48 90.17 0)
+		(at 30.48 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4409,7 +4544,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9eff72f-760e-431a-9fb0-a9c547e1d568")
 		(property "Reference" "D1"
-			(at 29.5529 82.55 0)
+			(at 29.5529 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,7 +4552,7 @@
 			)
 		)
 		(property "Value" "BPW34"
-			(at 29.5529 85.09 0)
+			(at 29.5529 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4425,7 +4560,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:Osram_DIL2_4.3x4.65mm_P5.08mm"
-			(at 30.48 85.725 0)
+			(at 30.48 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,7 +4569,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/81521/bpw34.pdf"
-			(at 29.21 90.17 0)
+			(at 29.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,7 +4578,7 @@
 			)
 		)
 		(property "Description" "Silicon PIN Photodiode"
-			(at 30.48 90.17 0)
+			(at 30.48 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,6 +5385,73 @@
 			(project "Emitter"
 				(path "/43722faa-4431-4597-8fe0-80b1502747ca"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbcc19c1-3e2e-4b97-a518-03d60bb89667")
+		(property "Reference" "#PWR06"
+			(at 54.61 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1f4c838-b715-4531-8e7d-36f8f8236aa4")
+		)
+		(instances
+			(project ""
+				(path "/43722faa-4431-4597-8fe0-80b1502747ca"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
